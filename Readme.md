@@ -22,21 +22,23 @@ To estimate the monthly cost for scaling to 5,000 learners, we’ll break down e
 
 ---
 
-### **3. OpenAI GPT-4o Mini (Chat)**  
-- **Cost**:  
-  - Input tokens: $0.15/million.  
-  - Output tokens: $0.60/million.  
-- **Assumptions**:  
-  - Learners interact heavily with GPT (SAT prep involves detailed explanations).  
-  - **Daily per learner**: ~500 input tokens (questions) + ~1,000 output tokens (answers).  
-  - **Monthly tokens per learner**:  
-    \( (500 \times 30) + (1,000 \times 30) = 15,000 \, \text{input} + 30,000 \, \text{output} \).  
-  - **Total for 5,000 learners**:  
-    \( 75 \, \text{million input} + 150 \, \text{million output} \).  
-- **Cost Calculation**:  
-  - Input: \( 75 \times \$0.15 = \$11.25 \).  
-  - Output: \( 150 \times \$0.60 = \$90 \).  
-  - **Total**: \( \$11.25 + \$90 = \$101.25/\text{month} \).  
+
+**GPT-4o Mini Calculation for 6 Hours/Day:**
+- Base assumptions: 500 input tokens + 1,000 output tokens per hour
+- Daily per learner: 
+  - Input: 500 × 6 = 3,000 tokens
+  - Output: 1,000 × 6 = 6,000 tokens
+- Monthly per learner (30 days):
+  - Input: 3,000 × 30 = 90,000 tokens
+  - Output: 6,000 × 30 = 180,000 tokens
+- Total for 5,000 learners:
+  - Input: 90,000 × 5,000 = 450 million tokens
+  - Output: 180,000 × 5,000 = 900 million tokens
+
+Cost Calculation:
+- Input cost: 450 × $0.15 = $67.50
+- Output cost: 900 × $0.60 = $540
+- Total GPT-4o Mini monthly cost: $607.50
 
 ---
 
@@ -45,8 +47,8 @@ To estimate the monthly cost for scaling to 5,000 learners, we’ll break down e
 |--------------------|----------------|  
 | Deepgram (STT)     | \$26,550       |  
 | Groq (TTS)         | \$6,000        |  
-| OpenAI GPT-4o Mini | \$101.25       |  
-| **Total**          | **\$32,651.25**|  
+| OpenAI GPT-4o Mini | \$607.50       |  
+| **Total**          | **\$33,000.25**|  
 
 ---
 
