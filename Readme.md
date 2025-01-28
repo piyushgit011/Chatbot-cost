@@ -2,7 +2,7 @@ To estimate the monthly cost for scaling to 5,000 learners, we’ll break down e
 
 ---
 
-### **1. Deepgram (Speech-to-Text)**  
+### **1. Deepgram (Text-to-Speech)**  
 - **Cost**: $0.0059 per minute.  
 - **Daily usage per learner**: 30 minutes (0.5 hours).  
 - **Monthly cost per learner**:  
@@ -12,7 +12,7 @@ To estimate the monthly cost for scaling to 5,000 learners, we’ll break down e
 
 ---
 
-### **2. Groq (Text-to-Speech via Whisper)**  
+### **2. Groq (Speech-to-Text via Whisper)**  
 - **Cost**: $0.02 per hour.  
 - **Daily usage per learner**: 2 hours.  
 - **Monthly cost per learner**:  
