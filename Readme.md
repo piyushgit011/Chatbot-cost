@@ -45,8 +45,8 @@ Cost Calculation:
 ### **4. Total Monthly Cost**  
 | **Service**       | **Cost/Month** |  
 |--------------------|----------------|  
-| Deepgram (STT)     | \$26,550       |  
-| Groq (TTS)         | \$6,000        |  
+| Deepgram (TTS)     | \$26,550       |  
+| Groq (STT)         | \$6,000        |  
 | OpenAI GPT-4o Mini | \$607.50       |  
 | **Total**          | **\$33,000.25**|  
 
